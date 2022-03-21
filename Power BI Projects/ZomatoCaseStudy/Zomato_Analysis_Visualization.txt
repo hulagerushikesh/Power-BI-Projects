@@ -1,0 +1,38 @@
+                                  ******** Power BI Project On Zomato Dataset *******
+
+----> In this project we are going to analyse the zomato dataset and try to visualize the data in Power BI for better understanding the behaviour of the data and we are going to make some insights on our visualization.
+
+We learn how to use the Power BI , but when you provided with a data , so what is the very first thought or what you will do  first when see the dataset first time. Sometimes we stuck at this point as we learn the tool , how to use them but at the point we see the dataset we found nothing to do with it. It is because we follow the tutorials and the tutor , we came to know about many commands, but the problem is what to do with this dataset ?
+----> 1) First most important thing is that open the dataset and try to understand it, means think about the columns , what kind of values it holds and what kind visualization you can do etc.
+2) After the first step , still you didn't get anything , now directly start to plot the graphs or visuals randomly on bais of your knowledge of the Power BI or any other software or language you use, it is because sometimes we stuck with tasks and couldn't figure out what to do? but if randomly plot anything we give a basic understanding of the data , but it's time consuming . but good if you didn't hit the first step.
+
+Now lets first understand the Zomato dataset.
+----> 1st col holds the unique id for each restaurant and the 2nd one is the name of the restaurant. #rd col is sbout country code its quite useful when we want a data of particular country ( simply we can use the country code as the category , kind of legend/hue thing). Following the country col we have 4th and 5th cols as the Address and Locality of the restaurant and also we are having longitude(6th) and latitude(7th) of the address. 8th is sbout Cuisines they provides, and 9th one is also country based col , is for the currency. Then 10th , 11th , 12th cols are for the order as has the table is book , has it is online ordered ,and is the oerder is delivered respectively. Then we have 13th price range col which is how the quality of a restaurant is ? Now the 14th col is of votes based on votes and the average cost which is 15th col and the last one about the ratings.
+
+# the most important thing while visualizing is that we should go according the task and means visualization must task oriented. So it will play vital role in making future steps. And also ask the dataset some questions and see analyse that the questions are valid or not, this will give you an experience of quering the dataset for the better visualizations.
+
+# As are going to create a dashboard or report , but what actully it points to ?
+----> A report or a dashboard is a summary ig the data and it will give a simple way  for understanding the data for the others. BY asking questions on based on the sales , money and etc we can easily show the respective values.
+
+# Now get the desired cols where your going to ask the qeries and transform tha data.
+----> As we have name and id of the restaurant , so we can ask for the restaurants for the particular city or area and also in cusiens if you want to eat your fauvrite food so you can directly go  for the respective restaurant. And  also we think for the custmor receive the orders , we can search restaurant on basis of the ratings, and many more questions to be there,
+
+#Business Objectives :  Now we just going to make a list of the targeted cols and questions from which we can get the proper visualizations.
+----> No. of restaurant , Ratings , Segregate the data if they are delivered or not , Dose the location impact the cost ,etc.
+
+
+Step1) Getting data And Transform the data :
+                           Now , let's start with uploading the data using 'Get Data' command and trannsform the data , we can load the data directly and can start working with data , but my suggesion is to go for modification. Because Power BI provides lots of features and they will automatically trannsform the data in a efficient way. As you click the tramform data , the new slide of Power BI will pop up which 'Power Query Editor' , here we can make changes in our data and its quite simple. We will add some columns in it , asking some queries in order to sort out the data for specific task. And much more operations on the  dataset.  Trannsformation is simply a cleaning and processing the data for a particular task. 
+As you enntered the Power query you can see a small red line at the column name , it means your data have some errors like the null values or wrong definedd type of the data. ATo remove this you just need to select remove rows tab at home bar and scroll and hit the ' Remove errors' and with just one click , your data is now ready for visualizations. 
+This is one of the best feature of the Power BI and we need not to do lots work , it auttomatically detect the errors and very simple to correct them.
+
+Step2) Visualise the processed or clean or transformed data :
+                          Now , our dataset is ready for visualizations , so onwards I will make a view of the visuals we are going to use and why we choose them.
+a) Cards : I used this to make overall snapshots of the dataset. Now using this card we find out te no. of restaurants , No. of countries with country code and the no. of cities.
+
+b)  Slicers : Using this visual we can pop out the counts or values we were given to the Cards . If I select country  code as the field of Slicer , it will provides me the codes under a graph a if i select any one of code will give me the particular no. for the cords/( Here we have cards of countries,cities and restaurants . Terefore the vakues will appears on the cards for mentioned country code)/
+
+c) Clustered Bar Chart : we use this for tking a view of the no. of restaurants are there in cities for a particular country.
+
+d) Matrix : Is used to filter out the top values.
+
